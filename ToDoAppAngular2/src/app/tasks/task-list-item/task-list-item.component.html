@@ -1,0 +1,14 @@
+<h2>Tarefas</h2>
+<hr>
+
+<button type="button" class="btn btn-primary mb-2" [routerLink]="['/new']" >
+  Nova Tarefa
+</button>
+
+<section>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let task of tasks">
+
+    </li>
+  </ul>
+</section>
